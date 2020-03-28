@@ -7,7 +7,7 @@ const SessionController = require('./controllers/SessionController');
 
 const routes = express.Router();
 
-routes.post('/session', SessionController.create);
+routes.post('/sessions', SessionController.create);
 
 routes.post('/ngos', NgoController.create);
 routes.get('/ngos', NgoController.index);
